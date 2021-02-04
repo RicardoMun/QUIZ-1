@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Link material icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <title>Quiz1</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <!-- 1 GRID -->
+        <div class="row">
+            <nav>
+                <div class="nav-wrapper red">
+                  <a href="#" class="brand-logo right">QUIZ</a>
+                  <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <li><a class="right" href="build.html">BUILD</a></li>
+                    <li><a href="settings.html">SETTINGS</a></li>
+                    <li><a href="publish.html">PUBLISH</a></li>
+                  </ul>
+                </div>
+              </nav>
+
+        </div>
+
+        <!-- 2 GRID -->
+        <div class="row">
+            
+            <div class="input-field col s6">
+                <input id="first_name" type="text" placeholder="">
+                <label>Full Name</label>
+                <span class="helper-text" data-error="wrong" data-success="right">First Name</span>
+            </div>
+            <div class="input-field col s6">
+                <input id="last_name" type="text" placeholder="">
+                <label></label>
+                <span class="helper-text" data-error="wrong" data-success="right">Last Name</span>
+            </div>
+        
+        </div>
+
+        <!-- 3 GRID -->
+        <div class="row">
+
+            <div class="input-field col s6">
+                <input id="email" type="text" placeholder="">
+                <label>E-mail Address</label>
+                <span class="helper-text" data-error="wrong" data-success="right">example@example.com</span>
+            </div>
+
+        </div>
+
+        <!-- 4 GRID -->
+        <div class="row">
+
+            <div class="input-field col s6">
+                <input id="contact_number" type="text" placeholder="(000) 000-0000">
+                <label>Contact Number</label>
+            </div>
+
+        </div>
+
+        <!-- 5 GRID -->
+        <div class="row">
+
+            <div class="input-field col s12">
+                <input id="address" type="text" placeholder="">
+                <label>Billing Addres</label>
+                <span class="helper-text" data-error="wrong" data-success="right">Street Address</span>
+            </div>
+
+        </div>
+
+        <!-- 6 GRID -->
+        <div class="row">
+
+            <div class="input-field col s12">
+                <input id="address2" type="text">
+                <label></label>
+                <span class="helper-text" data-error="wrong" data-success="right">Street Address Line 2</span>
+            </div>
+
+        </div>
+
+        <!-- 6 GRID -->
+        <div class="row">
+            
+            <button class="btn waves-effect waves-light red" type="submit" name="action" onclick="information()">Done
+                <i class="material-icons right">done</i>
+            </button>
+
+        </div>
+
+        <div class="row center">
+            <output id="view1"></output>
+            <br>
+            <output id="view2"></output>
+            <br>
+            <output id="view3"></output>
+            <br>
+            <output id="view4"></output>
+            <br>
+            <output id="view4"></output>
+        </div>
+
+    </div>
+
+    <script src="Quiz1.js"></script>
+</body>
+</html>
